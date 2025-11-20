@@ -52,7 +52,7 @@ my-variable // 不能包含除字母、数字、下划线以外的字符
 - 类型修饰符：`short`、`long`、`signed`、`unsigned`、`void`
 - 存储类型：`auto`、`register`、`static`
 - 外部链接：`extern`、`typedef`
-- 控制流：`if`、`else`、`switch`、`case`、`default`、`
+- 控制流：`if`、`else`、`switch`、`case`、`default`
 - 循环结构：`for`、`while`、`do`、`break`、`continue`
 - 跳转语句：`goto`、`return`
 - 常量定义：`const`
@@ -356,8 +356,8 @@ struct struct_name{
 当已经声明了一个结构体类型后，可以用该类型来声明变量。
 
 ```c
-struct __iobuf a;
-// 声明了一个类型为 struct __iobuf 的变量 a
+struct _iobuf a;
+// 声明了一个类型为 struct _iobuf 的变量 a
 FILE* fp;
 // 声明了一个类型为 FILE* 的变量 fp
 // 该变量指向 FILE 类型
